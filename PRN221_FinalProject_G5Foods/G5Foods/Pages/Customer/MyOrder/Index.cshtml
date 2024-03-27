@@ -1,0 +1,146 @@
+﻿@page
+@model G5Foods.Pages.Customer.MyOrder.IndexModel
+@{
+}
+
+@await Html.PartialAsync("/Pages/Shared/_Header_Customer.cshtml")
+<body>
+
+    <!-- search area -->
+    <div class="search-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <span class="close-btn"><i class="fas fa-window-close"></i></span>
+                    <div class="search-bar">
+                        <div class="search-bar-tablecell">
+                            <h3>Search For:</h3>
+                            <input type="text" placeholder="Keywords">
+                            <button type="submit">Search <i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end search area -->
+    <!-- breadcrumb-section -->
+    <div class="breadcrumb-section breadcrumb-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <div class="breadcrumb-text">
+                        <p>Fresh and Organic</p>
+                        <h1>My Order history</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end breadcrumb section -->
+    <!-- products -->
+    <div class="product-section mt-150 mb-150">
+        <div class="container">
+            @if (Model.Orders != null && Model.Orders.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Order Date</th>
+                               @*  <th>Required Date</th>
+                                <th>Freight</th> *@
+                                <th>Ship Name</th>
+                                <th>Ship Phone</th>
+                                @* <th>Address ID</th> *@
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var order in Model.Orders)
+                            {
+                                var orderDetails = Model.OrderDetail.Where(x => x.OrderId == order.OrderId).ToList();
+                                <tr data-toggle="collapse" data-target="#collapse-@order.OrderId" class="accordion-toggle">
+                                    <td>@order.OrderDate</td>
+                                    @* <td>@order.RequiredDate</td>
+                                    <td>@order.Freight</td> *@
+                                    <td>@order.ShipName</td>
+                                    <td>@order.ShipPhone</td>
+                                    @* <td>@order.AddressNavigation.AddressId</td> *@
+                                    @* <td>
+                            <a asp-page="./Edit" asp-route-id="@order.OrderId">Edit</a> |
+                            <a asp-page="./Details" asp-route-id="@order.OrderId">Details</a> |
+                            <a asp-page="./Delete" asp-route-id="@order.OrderId">Delete</a>
+                            </td> *@
+                                </tr>
+                                <tr>
+                                    <td colspan="7">
+                                        <div id="collapse-@order.OrderId" class="collapse">
+                                            <table class="table table-bordered">
+                                                <thead class="thead-dark">
+                                                    <tr>
+                                                        <th>OrderId</th>
+                                                        <th>Product Id</th>
+                                                        <th>Product Name</th>
+                                                        <th>Price</th>
+                                                        <th>Quantity</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach (var item in orderDetails)
+                                                    {
+                                                        <tr>
+                                                            <td>@item.OrderId</td>
+                                                            <td>@item.ProductId</td>
+                                                            <td>@item.Product.ProductName</td>
+                                                            <td>@item.UnitPrice</td>
+                                                            <td>@item.Quantity</td>
+                                                        </tr>
+                                                    }
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <p>No orders found.</p>
+            }
+        </div>
+    </div>
+    <!-- end products -->
+    <!-- logo carousel -->
+    <div class="logo-carousel-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="logo-carousel-inner">
+                        <div class="single-logo-item">
+                            <img src="assets/img/company-logos/1.png" alt="">
+                        </div>
+                        <div class="single-logo-item">
+                            <img src="assets/img/company-logos/2.png" alt="">
+                        </div>
+                        <div class="single-logo-item">
+                            <img src="assets/img/company-logos/3.png" alt="">
+                        </div>
+                        <div class="single-logo-item">
+                            <img src="assets/img/company-logos/4.png" alt="">
+                        </div>
+                        <div class="single-logo-item">
+                            <img src="assets/img/company-logos/5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end logo carousel -->
+
+</body>
+@await Html.PartialAsync("/Pages/Shared/_Footer_Customer.cshtml")

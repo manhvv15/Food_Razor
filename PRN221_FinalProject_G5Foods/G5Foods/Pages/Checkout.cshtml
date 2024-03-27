@@ -1,0 +1,301 @@
+﻿@* @page
+@model G5Foods.Pages.CheckoutModel
+@{
+}
+
+<h1>CheckOut</h1>
+<table >
+    <form method="post" onsubmit="return validateDates()">
+        
+    <tbody>
+        <tr>
+            <td><label>RequireDate</label></td>
+            <td><input id="d11" type="date" asp-for="@Model.order.RequiredDate" required /></td>
+           
+        </tr>
+        <tr> <span asp-validation-for="@Model.order.RequiredDate"></span></tr>
+
+        <tr>
+            <td><label>ShipName</label></td>
+            <td><input asp-for="@Model.order.ShipName" required /></td>
+           
+        </tr>
+        <tr> <span asp-validation-for="@Model.order.ShipName" required></span></tr>
+
+        <tr>
+            <td><label>Total Price</label></td>
+            <td><input  readonly asp-for="@Model.totalPrice" /></td>
+        </tr>
+
+
+
+        public int OrderId { get; set; }
+        public int CustomerId { get; set; }
+        public DateTime? OrderDate { get; set; }
+        public DateTime? RequiredDate { get; set; }
+        public int? Freight { get; set; }
+        public string? ShipName { get; set; }
+        public string? ShipPhone { get; set; }
+        public int? Address { get; set; }
+        public int? AdminId { get; set; }
+
+
+
+
+
+
+
+
+
+
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Checkout" /></td>
+        </tr>
+    </tbody>
+    </form>
+</table>
+<script>
+    function validateDates() {
+        // Get the selected date
+        const selectedDate = new Date(document.getElementById("d11").value);
+
+        // Get the current date
+        const now = new Date();
+
+        // Compare the selected date with the current date
+        if (selectedDate > now) {
+            // Submit the form
+            return true;
+        } else {
+            // Display an error message
+            alert("Selected date must be greater than current date.");
+            return false;
+        }
+    }
+</script>
+ *@
+
+
+@page
+@model G5Foods.Pages.CheckoutModel
+@{
+}
+
+@* <h1>CheckOut</h1>
+<table>
+    <form method="post" onsubmit="return validateDates()">
+
+    <tbody>
+        <tr>
+            <td><label>RequireDate</label></td>
+            <td><input id="d11" type="date" asp-for="@Model.order.RequiredDate" required /></td>
+
+        </tr>
+        <tr><span asp-validation-for="@Model.order.RequiredDate"></span></tr>
+
+        <tr>
+            <td><label>ShipName</label></td>
+            <td><input asp-for="@Model.order.ShipName" required /></td>
+
+        </tr>
+        <tr><span asp-validation-for="@Model.order.ShipName"></span></tr>
+
+        <tr>
+            <td><label>ShipPhone</label></td>
+            <td><input asp-for="@Model.order.ShipPhone" /></td>
+
+        </tr>
+        <tr><span asp-validation-for="@Model.order.ShipPhone"></span></tr>
+
+        <tr>
+            <td><label>Freight</label></td>
+            <td><input asp-for="@Model.order.Freight" /></td>
+
+        </tr>
+        <tr><span asp-validation-for="@Model.order.Freight"></span></tr>
+
+        <tr>
+            <td><label>Address</label></td>
+            <td><input asp-for="@Model.order.Address" /></td>
+
+        </tr>
+        <tr><span asp-validation-for="@Model.order.Address"></span></tr>
+
+        <tr>
+            <td><label>AdminId</label></td>
+            <td><input asp-for="@Model.order.AdminId" /></td>
+
+        </tr>
+        <tr><span asp-validation-for="@Model.order.AdminId"></span></tr>
+
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Checkout" /></td>
+        </tr>
+    </tbody>
+    </form>
+</table>
+<script>
+    function validateDates() {
+        // Get the selected date
+        const selectedDate = new Date(document.getElementById("d11").value);
+
+        // Get the current date
+        const now = new Date();
+
+        // Compare the selected date with the current date
+        if (selectedDate > now) {
+            // Submit the form
+            return true;
+        } else {
+            // Display an error message
+            alert("Selected date must be greater than current date.");
+            return false;
+        }
+    }
+</script> *@
+
+
+
+@await Html.PartialAsync("/Pages/Shared/_Header_Customer.cshtml")
+<body>
+    <!-- search area -->
+    <div class="search-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <span class="close-btn"><i class="fas fa-window-close"></i></span>
+                    <div class="search-bar">
+                        <div class="search-bar-tablecell">
+                            <h3>Search For:</h3>
+                            <input type="text" placeholder="Keywords">
+                            <button type="submit">Search <i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end search arewa -->
+    <!-- breadcrumb-section -->
+    <div class="breadcrumb-section breadcrumb-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <div class="breadcrumb-text">
+                        <p>Fresh and Organic</p>
+                        <h1>Cart</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end breadcrumb section -->
+    <!-- cart -->
+    <div class="cart-section mt-150 mb-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <h1>CheckOut</h1>
+                    <table>
+                        <form method="post" onsubmit="return validateDates()">
+
+                        <tbody>
+                            <tr>
+                                <td><label>RequireDate</label></td>
+                                <td><input id="d11" type="date" asp-for="@Model.order.OrderDate" required /></td>
+
+                            </tr>
+                            <tr><span asp-validation-for="@Model.order.OrderDate"></span></tr>
+
+                            <tr>
+                                <td><label>ShipName</label></td>
+                                <td><input asp-for="@Model.order.ShipName" required /></td>
+
+                            </tr>
+                            <tr><span asp-validation-for="@Model.order.ShipName"></span></tr>
+
+                            <tr>
+                                <td><label>ShipPhone</label></td>
+                                <td><input asp-for="@Model.order.ShipPhone" /></td>
+
+                            </tr>
+                            <tr><span asp-validation-for="@Model.order.ShipPhone"></span></tr>
+
+
+                            <select id="Address" class="form-control" asp-for="@Model.order.Address" required>
+                                <option value="">Select Address</option>
+                                    @foreach (var country in Model.Countries)
+                                    {
+                                    <option value="@country.AddressId">@country.Country</option>
+                                    }
+                            </select>
+
+@*                             <tr>
+                                <td><label>AdminId</label></td>
+                                <td><input asp-for="@Model.order.AdminId" /></td>
+                            </tr>
+                            <tr><span asp-validation-for="@Model.order.AdminId"></span></tr> *@
+
+                            <tr>
+                                <td></td>
+                                <td><input type="submit" value="Checkout" /></td>
+                            </tr>
+                        </tbody>
+                        </form>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end cart -->
+    <!-- logo carousel -->
+    <div class="logo-carousel-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="logo-carousel-inner">
+                        <div class="single-logo-item">
+                            <img src="assets/img/company-logos/1.png" alt="">
+                        </div>
+                        <div class="single-logo-item">
+                            <img src="assets/img/company-logos/2.png" alt="">
+                        </div>
+                        <div class="single-logo-item">
+                            <img src="assets/img/company-logos/3.png" alt="">
+                        </div>
+                        <div class="single-logo-item">
+                            <img src="assets/img/company-logos/4.png" alt="">
+                        </div>
+                        <div class="single-logo-item">
+                            <img src="assets/img/company-logos/5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end logo carousel -->
+
+</body>
+@await Html.PartialAsync("/Pages/Shared/_Footer_Customer.cshtml")
+<script>
+    function validateDates() {
+        // Get the selected date
+        const selectedDate = new Date(document.getElementById("d11").value);
+
+        // Get the current date
+        const now = new Date();
+
+        // Compare the selected date with the current date
+        if (selectedDate > now) {
+            // Submit the form
+            return true;
+        } else {
+            // Display an error message
+            alert("Selected date must be greater than current date.");
+            return false;
+        }
+    }
+</script>

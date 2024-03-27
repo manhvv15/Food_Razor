@@ -1,0 +1,137 @@
+﻿@page
+@using G5Foods.Models
+@model G5Foods.Pages.Admin.Report.OrderDetailModel
+@{
+    Order order = (ViewData["order"] as Order)!;
+    List<OrderDetail> Details = order.OrderDetails!.ToList();
+    int count = 1;
+
+}
+<link href="~/assets_admin/css/style.css" rel="stylesheet">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Quixlab - Bootstrap Admin Dashboard Template by Themefisher.com</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets_admin/images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <link href="~/assets_admin/plugins/tables/css/datatable/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="~/assets_admin/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <b class="logo-abbr"><img src="images/logo.png" alt=""> </b>
+                    <span class="logo-compact"><img src="./images/logo-compact.png" alt=""></span>
+                    <span class="brand-title">
+                        <img src="images/logo-text.png" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+        <!--**********************************
+            Header start
+        ***********************************-->
+        @await Html.PartialAsync("/Pages/Shared/_Header_Admin.cshtml")
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        @await Html.PartialAsync("/Pages/Shared/_Sidebar_Admin.cshtml")
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <div class="content-body p-3">
+            <!-- /# column -->
+            <div class="card w-75 m-auto">
+                <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                        <h4>Order detail</h4>
+                        <div>
+                            Date: @order.OrderDate
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Product Name</th>
+                                    <th>Unit Price</th>
+                                    <th>Quantity</th>
+                                    <th>Discount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                               @foreach (var detail in Details)
+                                {
+                                <tr>
+                                        <th>@(count++)</th>
+                                        <td>@(detail.Product!.ProductName)</td>
+                                        <td>@(detail.UnitPrice)</td>
+                                        <td>@(detail.Quantity)</td>
+                                        <td>@(detail.Discount)</td>
+                                </tr>
+                                }}
+                            </tbody>
+                        </table>
+                        <div class="d-flex flex-row-reverse">
+                            <button class="btn btn-primary" onclick="history.back()">Back to Order Report</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /# card -->
+        </div>
+    </div>
+    <script src="~/assets_admin/plugins/common/common.min.js"></script>
+    <script src="~/assets_admin/js/custom.min.js"></script>
+    <script src="~/assets_admin/js/settings.js"></script>
+    <script src="~/assets_admin/js/gleek.js"></script>
+    <script src="~/assets_admin/js/styleSwitcher.js"></script>
+
+    <script src="~/assets_admin/./plugins/tables/js/jquery.dataTables.min.js"></script>
+    <script src="~/assets_admin/./plugins/tables/js/datatable/dataTables.bootstrap4.min.js"></script>
+    <script src="~/assets_admin/./plugins/tables/js/datatable-init/datatable-basic.min.js"></script>
+</body>
+</html>
+
+
+

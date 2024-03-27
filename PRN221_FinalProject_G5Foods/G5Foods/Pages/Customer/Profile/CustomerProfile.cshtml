@@ -1,0 +1,34 @@
+﻿@page
+@model G5Foods.Pages.Customer.Profile.CustomerProfileModel
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div style="background-image:url(https://scontent.fhan20-1.fna.fbcdn.net/v/t39.30808-6/434167196_122138050412119939_2619931135751575972_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=JD8qsNZqRaQAX9ZkwLp&_nc_ht=scontent.fhan20-1.fna&oh=00_AfA_MxoRh_zMaUzD2zhJ_ToTBsic69qoI4I6TlsfaPQr7A&oe=6602954B);
+text-align:center;
+height:800px; align-items:center">
+<br />
+<br />
+<br />
+<br />
+    <h1 style="text-align:center; font-weight:bold; font-size: 50px; color:aqua">Customer's info</h1>
+    <form method="post" style="text-align:center" asp-action="OnPostAsync">
+        <div>
+            <label asp-for="Customer.CustomerId" style="display:none; color:aqua; font-size:40px;">Customer Id</label><br />
+            <input asp-for="Customer.CustomerId" class="form-control" style="display:none" /><br />
+            <label asp-for="Customer.CustomerName" style="font-weight:bold;color:aqua; font-size:40px;">Customer Name</label><br />
+            <input asp-for="Customer.CustomerName" class="form-control" style="height:30" /><br />
+            <label asp-for="Customer.Email" style="font-weight:bold;color:aqua; font-size:40px;">Email</label><br />
+            <input asp-for="Customer.Email" class="form-control" style="height:30" /><br />
+            <label asp-for="Customer.Password" style="font-weight:bold;color:aqua; font-size:40px;">Password</label><br />
+            <input asp-for="Customer.Password" class="form-control" style="height:30" /><br />
+        </div><br />
+        <button type="submit" class="btn btn-primary" style="background-color:aqua; font-weight:bold; font-size:20px; 
+height:40px; width:100px;">Save</button>
+    </form>
+    <div style="text-align:center; color:green; font-size:30px">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <p>@TempData["SuccessMessage"]</p>
+        }
+    </div>
+</div>

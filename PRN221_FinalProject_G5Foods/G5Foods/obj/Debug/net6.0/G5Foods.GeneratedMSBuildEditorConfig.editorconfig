@@ -1,0 +1,463 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = G5Foods
+build_property.RootNamespace = G5Foods
+build_property.ProjectDir = C:\Users\hp\Documents\Ki7\PRN221_Foods\G5_Foods\FinalProject\PRN221_FinalProject_G5Foods\G5Foods\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\hp\Documents\Ki7\PRN221_Foods\G5_Foods\FinalProject\PRN221_FinalProject_G5Foods\G5Foods
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/AdminDesign/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5EZXNpZ25cRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/AdminDesign/Test/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5EZXNpZ25cVGVzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/Logout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9nb3V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageAddress/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlQWRkcmVzc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageAddress/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlQWRkcmVzc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageAddress/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlQWRkcmVzc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageAddress/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlQWRkcmVzc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageAddress/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlQWRkcmVzc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageCategory/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageCategory/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageOrder/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlT3JkZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageOrder/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlT3JkZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageOrder/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlT3JkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageOrder/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlT3JkZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageOrder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageProduct/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageProduct/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageProduct/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageProduct/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageProduct/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageUser/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageUser/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlVXNlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageUser/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlVXNlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageUser/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlVXNlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/ManageUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/Profile/ChangeProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZmlsZVxDaGFuZ2VQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/Report/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Admin/Report/OrderDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVwb3J0XE9yZGVyRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/CustomerDesign/404/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJEZXNpZ25cNDA0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/CustomerDesign/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJEZXNpZ25cQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/CustomerDesign/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJEZXNpZ25cQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/CustomerDesign/Checkout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJEZXNpZ25cQ2hlY2tvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/CustomerDesign/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJEZXNpZ25cQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/CustomerDesign/Index/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJEZXNpZ25cSW5kZXhcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/CustomerDesign/Index_2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJEZXNpZ25cSW5kZXhfMlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/CustomerDesign/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJEZXNpZ25cTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/CustomerDesign/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJEZXNpZ25cU2hvcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/CustomerDesign/Single-news/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJEZXNpZ25cU2luZ2xlLW5ld3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/CustomerDesign/Single-product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJEZXNpZ25cU2luZ2xlLXByb2R1Y3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/404/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcNDA0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/Checkout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcQ2hlY2tvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/Homepage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcSG9tZXBhZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/Logout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcTG9nb3V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/MyOrder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcTXlPcmRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/Profile/CustomerProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcUHJvZmlsZVxDdXN0b21lclByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/Profile/Profile02.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcUHJvZmlsZVxQcm9maWxlMDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/Shop/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcU2hvcFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Customer/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcU2hvcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Addresses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEFkZHJlc3Nlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Addresses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEFkZHJlc3Nlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Addresses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEFkZHJlc3Nlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Addresses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEFkZHJlc3Nlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Addresses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEFkZHJlc3Nlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Admins/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEFkbWluc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Admins/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEFkbWluc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Admins/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEFkbWluc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Admins/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEFkbWluc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Admins/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEFkbWluc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXENhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXENhdGVnb3JpZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXENhdGVnb3JpZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXENhdGVnb3JpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXENhdGVnb3JpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEN1c3RvbWVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEN1c3RvbWVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEN1c3RvbWVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEN1c3RvbWVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXEN1c3RvbWVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/OrderDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXE9yZGVyRGV0YWlsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/OrderDetails/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXE9yZGVyRGV0YWlsc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/OrderDetails/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXE9yZGVyRGV0YWlsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/OrderDetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXE9yZGVyRGV0YWlsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/OrderDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXE9yZGVyRGV0YWlsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXE9yZGVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXE9yZGVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXE9yZGVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXE9yZGVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXE9yZGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXFByb2R1Y3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXFByb2R1Y3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXFByb2R1Y3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXFByb2R1Y3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Functions/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY3Rpb25zXFByb2R1Y3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Shared/_Footer_Customer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Gb290ZXJfQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Shared/_Footer_Customer_v2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Gb290ZXJfQ3VzdG9tZXJfdjIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Shared/_Header_Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9IZWFkZXJfQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Shared/_Header_Customer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9IZWFkZXJfQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Shared/_Header_Customer_v2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9IZWFkZXJfQ3VzdG9tZXJfdjIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Shared/_Sidebar_Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TaWRlYmFyX0FkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/Ki7/PRN221_Foods/G5_Foods/FinalProject/PRN221_FinalProject_G5Foods/G5Foods/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-o9ryjmz2d1
